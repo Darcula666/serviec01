@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startService(myIntent);
                 break;
             case R.id.btnStopService:
-                startService(myIntent);
+                stopService(myIntent);
                 break;
             case R.id.btnBindService:
                 bindService(myIntent,this, Context.BIND_AUTO_CREATE);
